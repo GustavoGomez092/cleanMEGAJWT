@@ -8,7 +8,8 @@ Hi! This is a boilerplate for a GraphQL Server with Apollo, MongoDB, JWT & Bcryp
 ## .ENV
 
 The .env file needs to cotain at least:
-|                |description					 |type                         |
+
+|Entry name      |description					 |type                         |
 |----------------|-------------------------------|-----------------------------|
 |DB_USER		 |user name for the DB           |String                       |
 |DB_PASS 		 |DB Password 		             |String                       |
