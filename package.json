@@ -1,0 +1,42 @@
+{
+  "name": "jmlf-graphql-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./dist/server.bundle.js",
+    "dev": "webpack | nodemon dist/server.bundle.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@hapi/joi": "^15.1.1",
+    "apollo-server-express": "^2.2.2",
+    "bcryptjs": "^2.4.3",
+    "check-tfm": "^1.0.5",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-sslify": "^1.2.0",
+    "graphql": "^14.0.2",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.4.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.3.13",
+    "npm": "^6.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "case-sensitive-paths-webpack-plugin": "^2.2.0",
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "standard": "^12.0.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
