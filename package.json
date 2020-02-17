@@ -1,5 +1,5 @@
 {
-  "name": "jmlf-graphql-api",
+  "name": "megajwt-graphql-api",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
